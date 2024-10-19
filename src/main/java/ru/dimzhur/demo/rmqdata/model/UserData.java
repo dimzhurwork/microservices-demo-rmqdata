@@ -22,4 +22,14 @@ public class UserData implements Serializable {
      * Список названий ролей
      */
     private List<String> roles;
+
+    /**
+     * Пользователь заблокирован
+     */
+    private boolean block;
+
+    /**
+     * Пользователь удален
+     */
+    private boolean deleted;
 }
